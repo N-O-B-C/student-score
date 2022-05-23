@@ -22,9 +22,9 @@ class Student:
 
             total = sum(score_list)
             score_list.append(total)
-            avg = sum(score_list) / len(score_list)
-            print(f"Hello ! {self.name} your average is", round(avg, 1))
+
 
             self.subjects[subject_name] = score_list
+            
         
     
