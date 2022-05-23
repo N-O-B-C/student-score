@@ -45,3 +45,12 @@ Average: {new_average}
 comment: {remarks}
 ===========================
 """
+print(footer)
+
+with open("student-result.txt", "w") as file:
+    for student in header:
+        file.writelines(header)
+    file.write("\n")
+
+
+
